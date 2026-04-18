@@ -7,7 +7,7 @@ No heavy HAL libraries and no Arduino core—just directly manipulating hardware
 
 ## 🛠️ The Hardware
 Here is the beast we are working with—the EasyAVR v7 by MikroElektronika. 
-![EasyAVR v7 Board](image_6188a8.jpg)
+![EasyAVR v7 Board](photo_3_2026-04-18_11-22-48.jpg)
 
 ## 💻 Tools & Tech Stack
 * **Board:** EasyAVR v7 (MikroElektronika)
@@ -20,9 +20,9 @@ Here is the beast we are working with—the EasyAVR v7 by MikroElektronika.
 
 **1. Writing & Compiling**
 All code is written from scratch in **Microchip Studio**. I build the bare-metal C code here to generate the `.hex` file.
-![Microchip Studio Build Succeeded](image_6188a4.jpg)
+![Microchip Studio Build Succeeded](photo_2_2026-04-18_11-22-48.jpg)
 
 **2. Flashing the Board**
 Once the build succeeds, I use the **AVRFLASH tool** to write the `.hex` file directly to the microcontroller via the onboard USB programmer.
-![AVRFLASH Software](image_6188ab.jpg)
+![AVRFLASH Software](photo_1_2026-04-18_11-22-48.jpg)
 
